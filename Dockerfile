@@ -6,7 +6,7 @@ WORKDIR /main
 
 COPY req*.txt .
 
-RUN pip3 install -r req*.txt
+RUN pip3 install -r requirements.txt
 
 COPY . .
 
